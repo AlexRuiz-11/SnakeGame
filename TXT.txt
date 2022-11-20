@@ -1,0 +1,19 @@
+---------------------------------------------------------------------------------------
+El archivo final es Snake_1.0_Final.
+El otro es el archivo antiguo del juego, donde se ve la estructura que use al principio 
+que no es la mejor pero he acabado usando para terminar el juego.
+---------------------------------------------------------------------------------------
+
+
+
+1.- La libreria misc.hpp no esta activada ya que tiene la misma funcion aleatorio que
+	la libreria ioconsole.hpp y entonces aleatorio() no funciona.
+
+2.- La funcion msleep() tampoco funciona (o si pero no se usarla) por eso utlizio Sleep() 
+	que aparentemente hace los mismo.
+
+3.- Para poder ver simetricamente cada caracter que aparece en la consola,ejecutar consola, ir 
+	a la barra de consola, (click derecho) -> propiedades -> Fuente -> fuentes (Fuentes de 
+	mapa de bits) -> tamaño (8 x 8). -> Aceptar.
+	De esta manera podremos juegar y ver mejor la pantalla y el movimiento de la serpiente
+	en cada direccion se vera con la misma velocidad. 
